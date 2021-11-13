@@ -354,7 +354,7 @@ mt.__namecall = newcclosure(function(self, ...)
 	return namecall(self, ...)
 end)
 setreadonly(mt, true)--]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/murderjj/version/main/version.txt",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/potionstealer/Spellcaster/main/version.lua",true))()
 if Current and Current.Version ~= ver then
 	Stand("spellcaster is not up to par!","spellcaster cannot run.","","Your version: "..ver,"Current version: "..Current.Version,"Run Anyway?",true)
 	while not RunDude do
